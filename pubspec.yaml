@@ -1,0 +1,49 @@
+name: youtube_simulator_2030
+description: Simulation of youtube future development
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.2
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^0.20.1
+  cupertino_icons: ^1.0.2
+  get_it: ^7.2.0
+  equatable: ^2.0.3
+  flutter_bloc: ^8.0.1
+  google_mobile_ads: ^1.2.0
+  youtube_player_flutter: ^8.0.0
+  rxdart: ^0.27.3
+  shared_preferences: ^2.0.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/app_logo.png"
+  adaptive_icon_background: "#000000"
+  remove_alpha_ios: true"
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/sfx/
+    - assets/music/
+    - assets/icons/
+
